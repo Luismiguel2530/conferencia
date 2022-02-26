@@ -463,6 +463,14 @@ font-size: 20px;
     border: none;
 }
 
+.reg__text a{
+    color: #021025;
+}
+.reg__text a:hover{
+    color: #021025;
+    
+}
+
 .reg__form .form__input{
 
     border: 2px solid rgb(124, 169, 196);
