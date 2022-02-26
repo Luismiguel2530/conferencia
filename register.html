@@ -6,17 +6,94 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>register</title>
     <link rel="stylesheet" href="register.css">
+    <link rel="stylesheet" href="visual.css">
+    <script src="https://kit.fontawesome.com/6c348aade9.js" crossorigin="anonymous"></script>
 </head>
 <body>
+
+    <header class="principal-container">
+        <h1 class="logo">
+            <a href="visual.html">GENERAL <br> <br> <br>  CONFERENCE</a>
+            </h1>
+        <div class="container">
+            <nav class="menunav">
+                <ul>
+                    <p class="menup">August 24&ndash;26th &mdash; Salk Lake, UT</p>
+                    <li><a href="visual.html">HOME</a></li>
+                    <li><a href="speakers.html">SPEAKERS</a></li>
+                    <li><a href="schedule.html">SCHEDULE</a></li>
+                    <li><a href="venue.html">VENUE</a></li>
+                    <li><a href="register.html">REGISTER</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="ve__content">
+        <h2 class="venue__h2">Register</h2>
+        <p class="venue__p">The conference is held at The Chicago Theatre, a beautiful historical landmark. The conference hotel, Four Seasons, is a short walk away down State Street.</p>
+    </div>
+
+    <section class="main__divreg">
+        <div class="register__div">
+            <div class="reg__text">
+                <h2>Participate in the General Conference</h2>
+                <h4>FREE PASS</h4>
+                <p>Select your Conference pass using the form porvided in this section. you can get multiple passes so you can invite any friends or any member of your family for free! We hope to see you in this secred conference.</p>
+                <h3>Want to know more about us?</h3>
+                <p>Feel freen to visit our web site so you can get to know more about the church of Jesus Christ Of Latter-day Saint on this <a href="https://www.churchofjesuschrist.org/?lang=spa" target="_blank">link</a></p>
+            </div>
+            <!-- FORM -->
+            <form action="" method="post">
+            <fieldset class="reg__form">
+
+
+                    <div class="form__space">
+                        <label for="name">
+                            Name <br>
+                            <input class="form__input" type="text" name="name" id="name" placeholder="Full name">
+                        </label>
+                    </div>
+                            <br>
+                            <div class="form__space">
+                        <label for="">
+                            Email  <br>
+                            <input class="form__input" type="email" name="email" id="" placeholder="Email address" >
+                        </label>
+                    </div>
+                        <br>
+                        <div class="form__space">
+                        <label for="">
+                            Number of passes <br>
+                            <select name="quantity" id="">
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                            </select>
+                        </label>
+                    </div>
+                        <br>
+                        <div class="form__space">
+                        <label for="">
+                            Comments <br>
+                            <textarea name="Comments" id="" cols="42" rows="12" style="border-radius: 8%;"></textarea>
+                        </label>
+                    </div>
+                    <input class="btn-default" type="submit" name="submit" value="Submit">
+                
+            </fieldset>
+        </form>
+    </section>
     <footer>
        
         <div class="afooter">
-           <a href="visual.html">Home</a>
-           <a href="speakers.html">Speakers</a>
-           <a href="schedule.html">Schedule</a>
-           <a href="venue.html">Venue</a>
-           <a href="register.html">Register</a>
-       </div>
+            <a href="visual.html"><i class="fas fa-home"></i>Home</a>
+            <a href="speakers.html"><i class="fas fa-users"></i>Speakers</a>
+            <a href="schedule.html"><i class="fas fa-calendar"></i>Schedule</a>
+            <a href="venue.html"><i class="fas fa-location-arrow"></i>Venue</a>
+            <a href="register.html"><i class="fas fa-clipboard-check"></i>Register</a>
+        </div>
    
        <p id="pfooter">© General Conference
        </p>

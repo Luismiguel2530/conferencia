@@ -162,7 +162,7 @@ a{
    height: 250px;
    border-radius: 5%;
 }
- img:hover{
+ .col-1-3 img:hover{
     box-shadow: 3px 4px 6px rgba(0, 0, 0, 0.5);
  }
 
@@ -174,6 +174,7 @@ a{
 
 footer{
     padding: 0 8px;
+   
 }
 #pfooter{
     font-size: 18px;
@@ -194,4 +195,344 @@ footer{
     color: #6b82ad;
 }
 
+footer i {
+    padding: 8px;
+}
 
+
+/* VENUE */
+
+/* contenedor principal */
+
+.ve__content {
+    background: rgb(157, 192, 212);
+    padding: 10px 100px;
+   
+}
+.venue__h2{
+    font-size: 45px;
+    text-align: center;
+    color: #3f4c66;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.venue__p{
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+    color: #021025;
+}
+
+/* VENUE GRID */
+
+.addr {
+    background-color: white;
+    padding: 10px;
+    
+
+}
+
+
+.v__ajuste{
+    color: #021025;
+}
+
+
+.ajuste{
+   padding: 30px;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  margin-left: 200px;
+    
+}
+
+.ajuste h3{
+    font-size: 30px;
+}
+
+.ajuste2{
+    position: absolute;
+    left: 40%;
+    top: 600px;
+    padding: 2px;
+    width: 700px;
+    height: 300px;
+}
+.ajuste3{
+    position: absolute;
+    left: 40%;
+    top: 950px;
+    padding: 2px;
+    width: 700px;
+    height: 300px;
+}
+/* schedule */
+/* tabla de discursantes */
+.table__container {
+    background: rgb(255, 255, 255);
+    padding: 8px;
+    color: rgb(102, 99, 99);
+    
+}
+
+table {
+    padding: 18px;
+    width: 100%;
+    font-size: 20px;
+    
+   
+    
+}
+
+table h4 {
+    color: #021025;
+}
+
+table a{
+    color: rgb(101, 101, 116);
+}
+
+#head2{
+    padding: 20px;
+    background-color: rgb(243, 243, 243);
+    font-size: 25px;
+}
+
+.sessions {
+    color: #021025;
+}
+
+.description {
+    border-bottom: 2px ;
+}
+
+th, td{
+    padding: 10px;
+    
+}
+
+td:hover {
+    background: rgba(243, 243, 243, 0.5); ;
+    box-shadow: 1px 0px 2px rgba(14, 13, 13, 0.90);
+}
+
+/* SPEAKERS */
+
+/* ENCABEZADOS Y PARRAFOS */
+
+
+.speaker__mainsec{
+    background-color: white;
+    padding: 8px 4px;
+}
+
+.speaker__mainsec p{
+    font-size: 20px;
+}
+
+
+
+.speaker__info img{
+    width: 200px;
+    height: 240px;
+    border-radius: 50%;
+}
+/* GRID */
+.speaker__container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr) ;
+    align-items: center;
+    margin: 0px 100px 0px 100px;
+    gap: 10px;
+}
+
+
+
+
+.speaker__section2 ul a{
+    color: #021025;
+}
+
+/* section 1 */
+.speaker__section1{
+    margin-left: 100px;
+}
+
+.speaker__section1 h2{
+    font-size: 30px;
+    color: #021025;
+}
+
+.speaker__section1 h4{
+    color: #606263;
+    font-size: 22px;
+}
+
+/* ASIDE SECTION2*/
+.speaker__section2{
+    margin-left: 200px;
+    width: 250px;
+    
+}
+
+.speaker__section2 img{
+    padding-left: 27px;
+    padding-right: 27px;
+}
+
+.speaker__section2:hover  {
+    background-color: #465777;
+    width: 250px;
+    transition: all 1s ease-in-out ;
+    box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.5);
+    border-radius: 5%;
+    margin-right: 150px;
+    
+   
+}
+
+.speaker__section2:hover a{
+    color: #fbfeff;
+    
+}
+
+.speaker__section2 a{
+    color: #314453;
+    
+}
+
+
+.speaker__section2 ul a{
+    color: #021025;
+}
+
+aside i{
+    padding: 2px;
+}
+    
+/* REGISTER */
+/* REGISTER MAIN CONTAINER */
+
+.register__div{
+    background-color: white;
+    padding: 8px;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(2, 1fr);
+
+}
+/* REGISTER TEXT */
+.reg__text{
+    padding: 10px;
+    margin-left:100px ;
+    margin-right: -120px;
+    margin-top: 20px;
+
+}
+.reg__text h2{
+    font-size: 29px;
+    color: #113163;
+}
+
+.reg__text h4 {
+    font-size: 22px;
+}
+.reg__text p{
+font-size: 20px;
+}
+
+
+
+.reg__text h3{
+        font-size: 26px;
+        color: #113163;
+        }
+/* REGISTER FORM */
+
+.reg__form{
+    text-align: left;
+    padding: 20px 0px 10px 10px;
+    font-size: 23px;
+    color: #113163;
+    font-weight: 300;
+    margin-left:150px;
+    margin-top: 20px;
+    border: none;
+}
+
+.reg__form .form__input{
+
+    border: 2px solid rgb(124, 169, 196);
+    width: 350px;
+    height: 30px;
+    border-radius: 5%;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.reg__form .form__input:hover{
+
+    background-color:#e9e9e9 ;
+}
+/* register comments edition */
+.reg__form textarea{
+
+    border: 2px solid rgb(124, 169, 196);
+    margin-top: 10px;
+    border-radius: 5%;
+    font-size: 15px;
+}
+
+.reg__form textarea:hover{
+
+    background-color: #e9e9e9;
+}
+ /* edicion de selector de passes */
+.reg__form select{
+
+    border: 2px solid rgb(124, 169, 196);
+    width: 50px;
+    height: 50px;
+    border-radius: 20%;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.reg__form select:hover {
+
+    background-color:#93aad4 ;
+    color: #ffffff;
+}
+
+
+.form__space{
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+/* register button */
+
+.btn-default {
+
+    width: 200px;
+    padding: 15px;
+    font-size: 20px;
+    border-radius: 5%;
+    background-color: #516996 ;
+    color: white;
+    cursor: pointer;
+}
+
+.btn-default:hover {
+
+    width: 200px;
+    padding: 15px;
+    font-size: 20px;
+    border-radius: 5%;
+    background-color: #93aad4 ;
+    color: rgb(5, 4, 51);
+    cursor: pointer;
+}
