@@ -297,8 +297,9 @@ table a{
 
 #head2{
     padding: 20px;
-    background-color: rgb(243, 243, 243);
+    background-color: rgb(86, 126, 179);
     font-size: 25px;
+    color: white;
 }
 
 .sessions {
@@ -307,6 +308,7 @@ table a{
 
 .description {
     border-bottom: 2px ;
+    color: white;
 }
 
 th, td{
